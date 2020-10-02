@@ -1,2 +1,2 @@
 import "./toDo.js";
-import "./functions.js";
+import "./addTask.js";

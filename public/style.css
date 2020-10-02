@@ -21,6 +21,8 @@ h1{
 h2{
     margin-left: 20px;
     font-family: 'Sansita Swashed', cursive;
+    font-family: 'Amatic SC', cursive;
+    font-size: 45px;
 }
 #addTaskInput{
     border: none;
@@ -70,9 +72,47 @@ h2{
     margin-top: 20px;
     border: solid rgba(0, 0, 0, 0.459) 1px;
     border-radius: 5px;
-    height: 650px;
+    height: 600px;
     margin-left: 20px;
     margin-right: 20px;
     font-family: 'Amatic SC', cursive;
     font-size: 35px;
+}
+.toDoTask{
+    color: seashell;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    font-size: 45px;
+    background-color: rgba(244, 165, 96, 0.808);
+    width: 75%;
+    margin-left: 10px;
+    padding: 10px;
+}
+#iconsDiv{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+
+}
+.icons{
+    width: 50px;
+    height: 40px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    border: none;
+    background-color: lemonchiffon;
+    transition: 0.4s;
+}
+.icons:first-child:hover{
+    background-color: rgb(169, 241, 169);
+}
+.icons:nth-child(2):hover{
+    background-color: rgb(207, 203, 165);
+}
+.icons:last-child:hover{
+    background-color: tomato;
 }
