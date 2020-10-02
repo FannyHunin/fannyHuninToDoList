@@ -1,37 +1,42 @@
-body{
+body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items:center;
+    align-items: center;
 }
-h1{
+
+h1 {
     text-align: center;
     text-decoration: underline;
     font-family: 'Sansita Swashed', cursive;
 }
-#listBody{
+
+#listBody {
     width: 700px;
     height: 900px;
     border: solid rgb(165, 165, 165) 1px;
     border-radius: 5px;
     background-image: url("./imgs/bg.jpg");
     background-size: 200%;
-    
+
 }
-h2{
+
+h2 {
     margin-left: 20px;
     font-family: 'Sansita Swashed', cursive;
     font-family: 'Amatic SC', cursive;
     font-size: 45px;
 }
-#addTaskInput{
+
+#addTaskInput {
     border: none;
     height: 50px;
     margin-left: 20px;
     font-family: 'Amatic SC', cursive;
     font-size: 35px;
 }
-#addTaskBtn{
+
+#addTaskBtn {
     border: none;
     background-color: lemonchiffon;
     width: 50px;
@@ -41,15 +46,18 @@ h2{
     font-family: 'Amatic SC', cursive;
     font-size: 35px;
 }
-#addTaskBtn:hover{
+
+#addTaskBtn:hover {
     background-color: rgb(207, 203, 165);
 }
-#filtersDiv{
+
+#filtersDiv {
     margin-top: 20px;
     display: flex;
     justify-content: flex-end;
 }
-.filtersBtn{
+
+.filtersBtn {
     background-color: pink;
     border: none;
     width: 75px;
@@ -59,16 +67,20 @@ h2{
     font-family: 'Amatic SC', cursive;
     font-size: 35px;
 }
-.filtersBtn:first-child:hover{
+
+.filtersBtn:first-child:hover {
     background-color: sandybrown;
 }
-.filtersBtn:nth-child(2):hover{
+
+.filtersBtn:nth-child(2):hover {
     background-color: rgb(169, 241, 169);
 }
-.filtersBtn:last-child:hover{
-    background-color:rgb(214, 159, 168);
+
+.filtersBtn:last-child:hover {
+    background-color: rgb(214, 159, 168);
 }
-#listDiv{
+
+#listDiv {
     margin-top: 20px;
     border: solid rgba(0, 0, 0, 0.459) 1px;
     border-radius: 5px;
@@ -78,7 +90,8 @@ h2{
     font-family: 'Amatic SC', cursive;
     font-size: 35px;
 }
-.toDoTask{
+
+.toDoTask {
     color: seashell;
     margin-top: 20px;
     border-radius: 5px;
@@ -90,13 +103,15 @@ h2{
     margin-left: 10px;
     padding: 10px;
 }
-#iconsDiv{
+
+#iconsDiv {
     display: flex;
     justify-content: flex-end;
     margin-right: 10px;
 
 }
-.icons{
+
+.icons {
     width: 50px;
     height: 40px;
     margin-left: 10px;
@@ -107,16 +122,20 @@ h2{
     background-color: lemonchiffon;
     transition: 0.4s;
 }
-.icons:first-child:hover{
+
+.icons:first-child:hover {
     background-color: rgb(169, 241, 169);
 }
-.icons:nth-child(2):hover{
+
+.icons:nth-child(2):hover {
     background-color: rgb(207, 203, 165);
 }
-.icons:last-child:hover{
+
+.icons:last-child:hover {
     background-color: tomato;
 }
-.yesOrNo{
+
+.yesOrNo {
     width: 35px;
     height: 35px;
     margin-left: 5px;
@@ -126,6 +145,31 @@ h2{
     background-color: rgba(144, 53, 37, 0.616);
     border: none;
 }
-.yesOrNo:hover{
+
+.yesOrNo:hover {
     font-weight: bold;
+}
+
+#editInput {
+    border: none;
+    height: 50px;
+    margin-left: 20px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+}
+#editBtn{
+    border: none;
+    background-color: lemonchiffon;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    transition: 0.4s;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+}
+#editBtn:hover{
+    background-color: rgb(207, 203, 165);
+}
+.d-none{
+    display: none;
 }
