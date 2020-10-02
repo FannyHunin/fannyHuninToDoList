@@ -12,7 +12,7 @@ listBody.addEventListener("click", (e) => {
         uncheck = e.target.parentElement.parentElement.appendChild(document.createElement("button"));
         uncheck.className = "icons"
         uncheck.innerText = "undo"
-    }else if(e.target.innerText == "undo"){
+    } else if (e.target.innerText == "undo") {
         console.log("undo")
         e.target.style.display = "none";
         tasksDoneBtn.style.display = ""

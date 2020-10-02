@@ -1,4 +1,5 @@
 let yesOrNoArr = ["yes", "no"]
+
 listBody.addEventListener("click", (e) => {
     if (e.target.innerText == "Delete") {
         e.target.parentElement.parentElement.style.backgroundColor = "tomato";
