@@ -1,6 +1,6 @@
 let addTaskInput = document.querySelector("input");
 let listDiv = document.getElementById("listDiv");
-let iconsTab = ["Done", "Edit", "Delete"]
+let iconsTab = ["Done !", "Edit", "Delete"]
 
 listBody.addEventListener("click", (e) => {
     if (e.target.innerText == "Add") {
