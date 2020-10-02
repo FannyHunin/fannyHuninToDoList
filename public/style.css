@@ -116,3 +116,16 @@ h2{
 .icons:last-child:hover{
     background-color: tomato;
 }
+.yesOrNo{
+    width: 35px;
+    height: 35px;
+    margin-left: 5px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    color: seashell;
+    background-color: rgba(144, 53, 37, 0.616);
+    border: none;
+}
+.yesOrNo:hover{
+    font-weight: bold;
+}
