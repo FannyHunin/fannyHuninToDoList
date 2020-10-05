@@ -22,3 +22,20 @@ listBody.addEventListener("click", (e) => {
         }
     }
 })
+document.addEventListener("keydown", (e) => {
+    if (e.key == "Enter") {
+        if (addTaskInput.value != "") {
+            tasks = listDiv.appendChild(document.createElement("div"));
+            tasks.classList = "toDoTask";
+            tasks.innerText = addTaskInput.value;
+            addTaskInput.value = "";
+            iconsDiv = tasks.appendChild(document.createElement("div"));
+            iconsDiv.setAttribute("id", "iconsDiv");
+            iconsTab.forEach(element => {
+                icons = iconsDiv.appendChild(document.createElement("button"));
+                icons.innerText = element;
+                icons.className = "icons";
+            });
+        }
+    }
+})

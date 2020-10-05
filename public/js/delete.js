@@ -4,7 +4,7 @@ listBody.addEventListener("click", (e) => {
     if (e.target.innerText == "Delete") {
         e.target.parentElement.parentElement.style.backgroundColor = "tomato";
         let erase = e.target.parentElement.parentElement.appendChild(document.createElement("div"));
-        erase.innerText = "Voulez-vous vraiment supprimer ?";
+        erase.innerText = "Do you want to delete this item ?";
         erase.style.fontSize = "20px";
         yesOrNoArr.forEach(element => {
             let yesOrNo = erase.appendChild(document.createElement("button"));
