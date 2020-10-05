@@ -11,7 +11,6 @@ listBody.addEventListener("click", (e) => {
             tasks = listDiv.appendChild(document.createElement("div"));
             tasks.classList = "toDoTask";
             tasks.innerText = addTaskInput.value;
-            tasks.setAttribute("state", "to do");
             addTaskInput.value = "";
             iconsDiv = tasks.appendChild(document.createElement("div"));
             iconsDiv.setAttribute("id", "iconsDiv");

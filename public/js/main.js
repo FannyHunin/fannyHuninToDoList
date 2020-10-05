@@ -3,3 +3,4 @@ import "./addTask.js";
 import "./done.js";
 import "./delete.js";
 import "./edit.js";
+import "./doneFilter.js"

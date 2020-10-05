@@ -103,6 +103,18 @@ h2 {
     margin-left: 10px;
     padding: 10px;
 }
+.doneTask{
+    color: seashell;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    font-size: 45px;
+    background-color: rgb(169, 241, 169);
+    width: 75%;
+    margin-left: 10px;
+    padding: 10px;
+}
 
 #iconsDiv {
     display: flex;
@@ -156,7 +168,7 @@ h2 {
     font-family: 'Amatic SC', cursive;
     font-size: 35px;
 }
-#editBtn{
+.editBtn{
     border: none;
     background-color: lemonchiffon;
     width: 50px;
@@ -166,7 +178,7 @@ h2 {
     font-family: 'Amatic SC', cursive;
     font-size: 30px;
 }
-#editBtn:hover{
+.editBtn:hover{
     background-color: rgb(207, 203, 165);
 }
 .d-none{
